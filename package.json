@@ -1,0 +1,29 @@
+{
+  "name": "test-lambda-locally-without-sam-or-serverless-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node lambda-runner.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibuzorugwunna/test-lambda-locally-without-sam-or-serverless-cli.git"
+  },
+  "author": "UZOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chibuzorugwunna/test-lambda-locally-without-sam-or-serverless-cli/issues"
+  },
+  "homepage": "https://github.com/chibuzorugwunna/test-lambda-locally-without-sam-or-serverless-cli#readme",
+  "dependencies": {
+    "@middy/core": "^3.3.1",
+    "aws-sdk": "^2.1214.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.103",
+    "@types/node": "^18.7.17",
+    "dotenv": "^16.0.2",
+    "minimist": "^1.2.6"
+  }
+}
